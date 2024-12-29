@@ -1,0 +1,1 @@
+The CSS property `calc()` can sometimes produce unexpected results if you're not careful with operator precedence and unit handling. For instance, `width: calc(100% - 20px);` works as expected, but `width: calc(100% - 20%);` might lead to unexpected behavior in different contexts because of how percentages are resolved relative to the containing element's width.
